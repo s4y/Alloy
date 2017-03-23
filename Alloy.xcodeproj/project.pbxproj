@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		123852901E83693E00F773FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1238528F1E83693E00F773FC /* AppDelegate.m */; };
+		123852931E83693E00F773FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 123852921E83693E00F773FC /* main.m */; };
+		123852981E83693E00F773FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 123852971E83693E00F773FC /* Assets.xcassets */; };
+		1238529B1E83693E00F773FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123852991E83693E00F773FC /* Main.storyboard */; };
+		123852A41E83699000F773FC /* AlloyInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 123852A31E83699000F773FC /* AlloyInstance.m */; };
+		123852A81E836A7500F773FC /* AlloyWorker.m in Sources */ = {isa = PBXBuildFile; fileRef = 123852A71E836A7500F773FC /* AlloyWorker.m */; };
+		123852AE1E837B4C00F773FC /* Instance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123852AD1E837B4C00F773FC /* Instance.storyboard */; };
+		123852B21E837B9200F773FC /* AlloyInstanceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123852B11E837B9200F773FC /* AlloyInstanceWindowController.m */; };
+		12BF0E691E837EFE006E167F /* sample in Resources */ = {isa = PBXBuildFile; fileRef = 12BF0E681E837EFE006E167F /* sample */; };
+		12BF0E6C1E8412D1006E167F /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BF0E6B1E8412D1006E167F /* JavaScriptCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1238528B1E83693E00F773FC /* Alloy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alloy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1238528E1E83693E00F773FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1238528F1E83693E00F773FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		123852921E83693E00F773FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		123852971E83693E00F773FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1238529A1E83693E00F773FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1238529C1E83693E00F773FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		123852A21E83699000F773FC /* AlloyInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlloyInstance.h; sourceTree = "<group>"; };
+		123852A31E83699000F773FC /* AlloyInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlloyInstance.m; sourceTree = "<group>"; };
+		123852A61E836A7500F773FC /* AlloyWorker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlloyWorker.h; sourceTree = "<group>"; };
+		123852A71E836A7500F773FC /* AlloyWorker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlloyWorker.m; sourceTree = "<group>"; };
+		123852AD1E837B4C00F773FC /* Instance.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Instance.storyboard; sourceTree = "<group>"; };
+		123852B01E837B9200F773FC /* AlloyInstanceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlloyInstanceWindowController.h; sourceTree = "<group>"; };
+		123852B11E837B9200F773FC /* AlloyInstanceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlloyInstanceWindowController.m; sourceTree = "<group>"; };
+		12BF0E681E837EFE006E167F /* sample */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sample; sourceTree = "<group>"; };
+		12BF0E6B1E8412D1006E167F /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		123852881E83693E00F773FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BF0E6C1E8412D1006E167F /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123852821E83693E00F773FC = {
+			isa = PBXGroup;
+			children = (
+				1238528D1E83693E00F773FC /* Alloy */,
+				12BF0E681E837EFE006E167F /* sample */,
+				1238528C1E83693E00F773FC /* Products */,
+				12BF0E6A1E8412D0006E167F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1238528C1E83693E00F773FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1238528B1E83693E00F773FC /* Alloy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1238528D1E83693E00F773FC /* Alloy */ = {
+			isa = PBXGroup;
+			children = (
+				123852A51E836A2A00F773FC /* Instance */,
+				123852AF1E837B5E00F773FC /* UI */,
+				1238528E1E83693E00F773FC /* AppDelegate.h */,
+				1238528F1E83693E00F773FC /* AppDelegate.m */,
+				123852971E83693E00F773FC /* Assets.xcassets */,
+				123852991E83693E00F773FC /* Main.storyboard */,
+				1238529C1E83693E00F773FC /* Info.plist */,
+				123852911E83693E00F773FC /* Supporting Files */,
+			);
+			path = Alloy;
+			sourceTree = "<group>";
+		};
+		123852911E83693E00F773FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				123852921E83693E00F773FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		123852A51E836A2A00F773FC /* Instance */ = {
+			isa = PBXGroup;
+			children = (
+				123852A61E836A7500F773FC /* AlloyWorker.h */,
+				123852A71E836A7500F773FC /* AlloyWorker.m */,
+				123852A21E83699000F773FC /* AlloyInstance.h */,
+				123852A31E83699000F773FC /* AlloyInstance.m */,
+			);
+			name = Instance;
+			sourceTree = "<group>";
+		};
+		123852A91E837AE800F773FC /* Instance */ = {
+			isa = PBXGroup;
+			children = (
+				123852AD1E837B4C00F773FC /* Instance.storyboard */,
+				123852B01E837B9200F773FC /* AlloyInstanceWindowController.h */,
+				123852B11E837B9200F773FC /* AlloyInstanceWindowController.m */,
+			);
+			name = Instance;
+			sourceTree = "<group>";
+		};
+		123852AF1E837B5E00F773FC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				123852A91E837AE800F773FC /* Instance */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		12BF0E6A1E8412D0006E167F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12BF0E6B1E8412D1006E167F /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1238528A1E83693E00F773FC /* Alloy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1238529F1E83693E00F773FC /* Build configuration list for PBXNativeTarget "Alloy" */;
+			buildPhases = (
+				123852871E83693E00F773FC /* Sources */,
+				123852881E83693E00F773FC /* Frameworks */,
+				123852891E83693E00F773FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alloy;
+			productName = Alloy;
+			productReference = 1238528B1E83693E00F773FC /* Alloy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		123852831E83693E00F773FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Google;
+				TargetAttributes = {
+					1238528A1E83693E00F773FC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 123852861E83693E00F773FC /* Build configuration list for PBXProject "Alloy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 123852821E83693E00F773FC;
+			productRefGroup = 1238528C1E83693E00F773FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1238528A1E83693E00F773FC /* Alloy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		123852891E83693E00F773FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12BF0E691E837EFE006E167F /* sample in Resources */,
+				123852AE1E837B4C00F773FC /* Instance.storyboard in Resources */,
+				123852981E83693E00F773FC /* Assets.xcassets in Resources */,
+				1238529B1E83693E00F773FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		123852871E83693E00F773FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123852B21E837B9200F773FC /* AlloyInstanceWindowController.m in Sources */,
+				123852A81E836A7500F773FC /* AlloyWorker.m in Sources */,
+				123852931E83693E00F773FC /* main.m in Sources */,
+				123852A41E83699000F773FC /* AlloyInstance.m in Sources */,
+				123852901E83693E00F773FC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		123852991E83693E00F773FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1238529A1E83693E00F773FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1238529D1E83693E00F773FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1238529E1E83693E00F773FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		123852A01E83693E00F773FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Alloy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.Alloy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		123852A11E83693E00F773FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Alloy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.google.Alloy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		123852861E83693E00F773FC /* Build configuration list for PBXProject "Alloy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1238529D1E83693E00F773FC /* Debug */,
+				1238529E1E83693E00F773FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1238529F1E83693E00F773FC /* Build configuration list for PBXNativeTarget "Alloy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123852A01E83693E00F773FC /* Debug */,
+				123852A11E83693E00F773FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 123852831E83693E00F773FC /* Project object */;
+}
